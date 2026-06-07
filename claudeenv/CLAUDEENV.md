@@ -399,8 +399,6 @@ claudeenv load
 
 The tool is functional, tested, and in active use. Upcoming work includes:
 
-- **Auto-detection** — infer the profile from project files (`go.mod` → golang, `Chart.yaml` → kubernetes)
-- **Community profiles registry** — share and discover profiles
 - **Windows support**
 
 ---
