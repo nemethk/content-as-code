@@ -4,13 +4,13 @@
 
 ---
 
-If you use Claude Code across more than one type of project, you have probably noticed the drift. Open a Go service and the skill list includes finance helpers. Switch to a Kubernetes repo and ETF analysis tools are still there. The more you extend Claude Code, the more every session looks the same regardless of what you are actually working on.
+If you use Claude Code across different kinds of projects, you have probably seen the drift. Open a Go service and the skill list still includes finance helpers. Switch to a Kubernetes repository and the ETF analysis tools are still there. The more you customize Claude Code, the more each session starts to look the same, regardless of the work in front of you.
 
-This is not just a cosmetic problem. It is a context leakage problem — and it gets worse at scale.
+This is not just cosmetic. It is context leakage, and it becomes more costly as usage scales.
 
-Now flip it around. You work on ten Go repositories. Every one needs the same review skill, the same rules, the same agent — so you copy them into each repo by hand and try to keep them in sync as they evolve.
+The inverse problem appears just as quickly. If you work across ten Go repositories, each one may need the same review skill, the same rules, and the same agent. In practice, that means copying them into every repository by hand and trying to keep them synchronized as they evolve.
 
-Two different problems. Both caused by the same missing primitive: there is no way to declare and manage Claude Code context at the project level.
+These are two different problems with the same root cause: Claude Code has no project-level mechanism for declaring and managing context.
 
 ---
 
@@ -420,6 +420,8 @@ If you use Claude Code and care about cleaner context, reusable profiles, or bet
 
 ---
 
-*Kalman Nemeth — AI Infrastructure Engineer · [LinkedIn](https://www.linkedin.com/in/nemethkalman/)*
+*Kalman Nemeth 
+AI Infrastructure Engineer
+[LinkedIn](https://www.linkedin.com/in/nemethkalman/)*
 
 #ClaudeCode #AIEngineering #DeveloperTools #ContextEngineering #LLMOps #OpenSource #DevOps
